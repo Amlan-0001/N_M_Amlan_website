@@ -1,0 +1,52 @@
+import type { Education } from '../types/portfolio.ts';
+
+export const education: Education[] = [
+  {
+    id: 'iiit-bhubaneswar',
+    institution: 'International Institute of Information Technology (IIIT) Bhubaneswar',
+    degree: 'B.Tech in Computer Science and Engineering',
+    department: 'Computer Science and Engineering',
+    location: 'Bhubaneswar, India',
+    startYear: '2023',
+    endYear: '2027',
+    cgpa: '8.22 / 10.0',
+    relevantCourses: [
+      'Data Structures & Algorithms',
+      'Database Management Systems',
+      'Operating Systems',
+      'Computer Networks',
+      'Artificial Intelligence',
+      'Machine Learning',
+      'Software Engineering',
+      'Object-Oriented Programming',
+    ],
+    highlights: [
+      'Building a foundation in computer science, software engineering, and artificial intelligence.',
+    ],
+  },
+  {
+    id: 'bjb-class-12',
+    institution: 'B.J.B. Higher Secondary School, Bhubaneswar',
+    degree: 'Class 12th',
+    department: 'Science',
+    location: 'Bhubaneswar, India',
+    startYear: '2019',
+    endYear: '2021',
+    cgpa: null,
+    score: '92.1%',
+    scoreLabel: 'Percentage',
+    relevantCourses: [],
+    highlights: [],
+  },
+  {
+    id: 'kamala-lochan-class-10',
+    institution: 'Kamala Lochan Higher School, Sudhakanthi',
+    degree: 'Class 10th',
+    location: 'Jagatsinghpur, Odisha, India',
+    cgpa: null,
+    score: '91.1%',
+    scoreLabel: 'Percentage',
+    relevantCourses: [],
+    highlights: [],
+  },
+];
